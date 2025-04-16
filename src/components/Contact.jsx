@@ -122,7 +122,7 @@ const Contact = () => {
     {loading ? "Sending..." : "Send"}
   </button>
   <motion.a
-  href='/tcv.pdf'
+  href='tcv.pdf'
   download
   animate={{
     scale: [1, 1.1, 0.95, 1],
